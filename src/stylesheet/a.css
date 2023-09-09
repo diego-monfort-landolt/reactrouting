@@ -1,0 +1,38 @@
+.homecontainer {
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.homeimg {
+    align-items: center;
+    width: 100%;
+    padding: 80px;
+    border: 3px solid white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px 0px rgba(241, 234, 234, 0.75);
+    animation: myAnim 15s ease 0s infinite normal forwards;
+}
+
+.homeimg img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 1px 1px 15px #000;
+
+}
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+

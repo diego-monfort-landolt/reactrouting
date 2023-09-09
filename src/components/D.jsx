@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 const D = () => {
     const dato= useParams();
   return (
-    <div> Site D
+    <div> 
         <div>{dato.letra}</div>
 
 

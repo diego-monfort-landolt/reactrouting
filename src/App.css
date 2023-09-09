@@ -23,6 +23,7 @@ a {
 nav {
   display: block;
   flex-direction: row;
+  text-align: center;
   background-color: aliceblue;
   padding: 10px;
   width: 100%;
