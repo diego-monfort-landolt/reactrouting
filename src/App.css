@@ -14,17 +14,18 @@ a {
 }
 .activado {
   color: #000;
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.649);
+  border: orange;
   letter-spacing: 2px;
   padding: 13px;
-  box-shadow: 1px 1px 10px purple;
+  box-shadow: 1px 1px 15px rgb(228, 99, 7);
 
 }
 nav {
   display: block;
   flex-direction: row;
   text-align: center;
-  background-color: aliceblue;
+  background-color: rgb(83, 83, 84);
   padding: 10px;
   width: 100%;
   height: 10vh;
