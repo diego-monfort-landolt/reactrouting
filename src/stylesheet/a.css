@@ -1,7 +1,7 @@
 .homecontainer {
     font-size: 15px;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -23,16 +23,104 @@
     box-shadow: 1px 1px 15px #000;
 
 }
-@keyframes myAnim {
-	0%,
-	50%,
-	100% {
-		opacity: 1;
-	}
 
-	25%,
-	75% {
-		opacity: 0;
-	}
+.maincontainer {
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 90px;
+
+
 }
 
+.ueberschrift {
+    padding: 20px;
+    box-shadow: 1px 1px 10px orange;
+    background-color: #000;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+.ueberschriftimg {
+    width: 290px;
+    height: 190px;
+    border-radius: 12px;
+    margin: 20px;
+    box-shadow: 1px 1px 15px #000;
+    object-fit: cover;
+}
+
+.ueberschriftlink {
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+
+}
+
+.ueberschriftlink .btn {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    border-radius: 12px 0 12px 0;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 10px orange;
+    background-color: #000;
+    letter-spacing: 2px;
+}
+
+.ueberschriftlink .btn:hover {
+    cursor: pointer;
+    padding: 13px;
+}
+
+span {
+    padding: 5px;
+    border: 1px solid red;
+    margin: 5px;
+    border-radius: 5px 0 5px 0;
+}
+
+span:last-child {
+    background-color: red;
+    color: #000;
+}
+
+@keyframes myAnim {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+@media (max-width: 668px) {
+    .homeimg {
+        align-items: center;
+        width: 50%;
+        padding: 60px;
+        border: 3px solid white;
+        border-radius: 12px;
+        box-shadow: 5px 5px 15px 0px rgba(241, 234, 234, 0.75);
+        animation: myAnim 15s ease 0s infinite normal forwards;
+    }
+    
+    .homeimg img {
+        width: 200px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 1px 1px 15px #000;
+    
+    }
+}

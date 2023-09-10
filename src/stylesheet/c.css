@@ -15,6 +15,15 @@
     box-shadow: 1px 1px 10px #fff;
 
 }
+.img-container img:hover {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px red;
+    cursor: zoom-in;
+    transition: .5s all;
+}
 .backing {
     position: fixed;
     bottom: 0;

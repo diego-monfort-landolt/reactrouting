@@ -12,6 +12,15 @@ a {
   font-size: 12px;
   text-decoration: none;
 }
+a:last-child{
+  display: flex;
+  padding: 15px;
+  background-color: rgb(37, 37, 37);
+  float: right;
+  justify-content: center;
+  
+
+}
 .activado {
   color: #000;
   background-color: rgba(255, 0, 0, 0.649);
@@ -25,6 +34,8 @@ nav {
   display: block;
   flex-direction: row;
   text-align: center;
+  align-items: center;
+  justify-content: center;
   background-color: rgb(83, 83, 84);
   padding: 10px;
   width: 100%;
@@ -32,3 +43,11 @@ nav {
   border-bottom: 1px solid #000;
   box-shadow: 1px 1px 10px #000;
 }
+
+.iconshopping {
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  
+}
+
