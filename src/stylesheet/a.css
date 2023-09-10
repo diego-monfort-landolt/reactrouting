@@ -50,6 +50,7 @@
     margin: 20px;
     box-shadow: 1px 1px 15px #000;
     object-fit: cover;
+    
 }
 
 .ueberschriftlink {
@@ -57,15 +58,13 @@
     text-align: center;
     padding: 20px;
     background-color: transparent;
+    
 
 }
 
 .ueberschriftlink .btn {
     padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px auto;
+    margin: 10px;
     border-radius: 12px 0 12px 0;
     border: none;
     outline: none;
@@ -74,9 +73,11 @@
     letter-spacing: 2px;
 }
 
+
 .ueberschriftlink .btn:hover {
     cursor: pointer;
     padding: 13px;
+    transition: all .5s ease-in-out;
 }
 
 span {
