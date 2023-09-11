@@ -17,10 +17,10 @@ const A = () => {
         <div className='ueberschrift'>
           <h2>React Routing Tests...</h2>
         </div>
-        <img className='ueberschriftimg' src={bilder} alt='foto'/>
+        <img className='ueberschriftimg' src={bilder} alt='foto' />
         <Link className='ueberschriftlink' to='/pagina3'>
-           <button className='btn'>See More Pictures</button>
-        </Link>       
+          <button className='btn'>See More Pictures</button>
+        </Link>
 
       </div>
 
